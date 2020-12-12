@@ -1,0 +1,203 @@
+html,body{
+    scroll-behavior: smooth;
+  }
+  
+  #fa{
+    border: 2px solid;
+    color: white;
+  }
+  /* Sub-Elements. */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  /* Navbar. */
+  .mr-auto,
+  .mx-auto {
+    margin-left: 356px !important;
+    font-size: 1.39rem;
+  }
+  
+  #fb{
+    margin-top: 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.66rem !important;
+    text-transform: capitalize !important;
+    color: white !important;
+    font-weight: bolder;
+    font-family: system-ui;
+    border: 1px solid #7ada23;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px gold;
+  }
+
+
+  
+  .navbar .nav-link {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .navbar .nav-link:hover{
+  color: orange !important;
+  }
+  
+  .text-center {
+    font-weight: bolder;
+  }
+  
+  hr {
+    border-top: 1px solid rgb(255 162 162) !important;
+  }
+  
+  .bg-light {
+    background-color: #32404f !important;
+  }
+  
+  /* Navbar Media Queries. */
+  @media (max-width: 576px) {
+    .mr-auto,
+    .mx-auto {
+      margin-left: 0px !important;
+      width: 110% !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar {
+      margin-left: 0px !important;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar .nav-link:hover {
+      /* width:50%; */
+    }
+  }
+
+  #top{
+    margin-top: 90px !important;
+  }
+  
+  .color{
+    color: green !important;
+  }
+
+  .jus{
+    text-align: justify !important;
+    line-height: 38px;
+  }
+  
+  /* #scroll{
+    color: black !important;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+  /* ::-webkit-scrollbar{
+    width: 25px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    border: 7px solid #232943;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+      45deg,
+      #06dee1,
+      #79ff6c
+    );
+    border-radius: 3px;
+  } */ */
+  
+  /* #cont{
+    width: 300px;
+    height: 200px;
+    background: #f1f1f1;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+  
+  @media (min-width:576px){
+    #cont{
+      width: 100% !important;
+      height: 300px;
+      background-color: #181e21 !important;
+      color: #2ff2fff2;
+      padding: 10px;
+      overflow: hidden;
+      overflow-y: scroll;
+      overflow-x: scroll;
+      line-height: 45px;
+      text-align: justify;
+    }
+  }
+  
+  
+  @media (max-width:1200px){
+    #cont{
+      width: 100% !important;
+      height: 300px;
+      background-color: #181e21 !important;
+      color: #2ff2fff2;
+      padding: 10px;
+      overflow: hidden;
+      overflow-y: scroll;
+      overflow-x: scroll;
+      line-height: 45px;
+      text-align: justify;
+    }
+  } */
+
+  .cont{
+    width: 300px;
+    height: 200px;
+    background: #f1f1f1;
+    padding: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: scroll;
+  }
+  
+  @media (min-width:576px){
+    .cont{
+      width: 100% !important;
+      height: 300px;
+      background-color: #caedff !important;
+      color: #2ff2fff2;
+      padding: 10px;
+      overflow: hidden;
+      overflow-y: scroll;
+      overflow-x: scroll;
+      line-height: 45px;
+      text-align: justify;
+    }
+  }
+  
+  
+  @media (max-width:1200px){
+    .cont{
+      width: 100% !important;
+      height: 300px;
+      background-color: #caedff !important;
+      color: #2ff2fff2;
+      padding: 10px;
+      overflow: hidden;
+      overflow-y: scroll;
+      overflow-x: scroll;
+      line-height: 45px;
+      text-align: justify;
+    }
+  }
+
+  #top .container a{
+    text-decoration: none !important;
+  }
