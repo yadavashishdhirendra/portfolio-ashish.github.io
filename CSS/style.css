@@ -544,6 +544,11 @@ h3 span {
   height: 55vh;
 }
 
+@media screen and (max-width: 767px) {
+.carousel-inner img {
+  height: 24vh;
+}
+}
 .Cal {
   width: 10%;
   height: 101px !important;
